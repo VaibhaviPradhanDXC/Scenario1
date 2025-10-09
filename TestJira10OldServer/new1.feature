@@ -1,10 +1,7 @@
 Feature:
   Hi Testsasd
+  sdsd
+  nene
 
   Scenario:
-    sd dfdf sdsd
-    sd
-    sd
-    sd
-    sd
-    sd
+   Updated
