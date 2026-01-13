@@ -6,4 +6,8 @@ Feature: Google Searching
     When the search phrase "panda" is entered
     Then results for "panda" are shown
     And the related results include "Panda Express"
+
     But the related results do not include "pandemonium"
+       Given a web browser is on the Google page
+    When the search phrase "panda" is entered
+    Then results for "panda" are shown
