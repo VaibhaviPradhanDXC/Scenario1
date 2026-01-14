@@ -1,5 +1,6 @@
 Feature:
   <Some interesting description here>
+  New FF1
 
   Scenario:
      User successfully creates a LinkedIn Account
