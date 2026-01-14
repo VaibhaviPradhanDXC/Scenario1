@@ -8,3 +8,4 @@ GIVEN John is on the LinkedIn Registration page
 WHEN he enters all required registration fields
 THEN a LinkedIn account is created
 122
+New test feature adddition
