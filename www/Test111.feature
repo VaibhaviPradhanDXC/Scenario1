@@ -2,6 +2,7 @@ Feature:
   As a new user
   I want to log in to the website 
   So that the system can remember my data
+  Edit
 
 
 
@@ -11,3 +12,4 @@ Feature:
     And A user enters a valid email <email> and password <password>
     And A user clicks Sign-in
     Then A user should be successfully logged into the site
+Edited
