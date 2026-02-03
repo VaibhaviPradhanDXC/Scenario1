@@ -17,3 +17,9 @@ Feature:
   Then I should see "Order Successful"
   And I should receive a confirmation email
   And my inventory should be reduced
+  Then I should see "Order Successful"
+  And I should receive a confirmation email
+  And my inventory should be reduced
+  Then I should see "Order Successful"
+  And I should receive a confirmation email
+  And my inventory should be reduced
