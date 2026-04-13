@@ -1,7 +1,8 @@
 Feature:
   <Some interesting description here>
   
-test
+
 
   Scenario:
-    <Some interesting scenario steps here>
+when i do this
+given the user enters 
