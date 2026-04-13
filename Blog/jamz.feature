@@ -4,5 +4,6 @@ Feature:
 
 
   Scenario:
-when i do this
-given the user enters 
+When I do this
+Given the this
+
