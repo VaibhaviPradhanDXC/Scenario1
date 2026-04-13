@@ -6,4 +6,5 @@ Feature:
   Scenario:
 When I do this
 Given the this
+When If this
 
