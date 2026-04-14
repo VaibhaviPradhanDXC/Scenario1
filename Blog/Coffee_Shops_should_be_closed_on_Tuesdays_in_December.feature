@@ -2,6 +2,7 @@ Feature: Coffee Shops should be closed on Tuesdays in December
   
 
   @coffee
+  @valid
   
   Scenario:
     Given the customer has placed new order
