@@ -1,6 +1,8 @@
 Feature:
   <Some interesting description here>
-  
+  @coffee
+  @login
+  @copy
 
 
   Scenario:
