@@ -19,12 +19,11 @@ Background: Testing
     Then login result should be "<result>"
     
     @valid
+    @coffee
     Scenario: Login with multiple users
         When user enters username "<username>"
         And user enters password "<password>"
         And user clicks login button
         Then login result should be "<result>"
-    
- 
- 
+
     
