@@ -1,5 +1,6 @@
 @coffee
 @valid
+@testing
 Feature: Coffee Shops should be closed on Tuesdays in December
   
 Background: Testing
@@ -24,6 +25,10 @@ Background: Testing
         And user enters password "<password>"
         And user clicks login button
         Then login result should be "<result>"
+
+    Examples: 
+      |link                 |
+      |go out of coffee shop|
         
     
 
