@@ -11,11 +11,20 @@ Background: Testing
     And coffee should
     Then customers should expect an error message to be displayed
   
-  @coffee
+  @coffee 
   Scenario Outline:Login with multiple users
     When user enters username "<username>"
     And user enters password "<password>"
     And user clicks login button
     Then login result should be "<result>"
+    
+    @valid
+    Scenario: Login with multiple users
+        When user enters username "<username>"
+        And user enters password "<password>"
+        And user clicks login button
+        Then login result should be "<result>"
+    
+ 
  
     
