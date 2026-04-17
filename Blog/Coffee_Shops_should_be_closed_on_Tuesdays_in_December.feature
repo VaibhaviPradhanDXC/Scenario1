@@ -1,7 +1,8 @@
 @coffee
 @valid
 @testing
-
+@regression
+@re
 Feature: Coffee Shops should be closed on Tuesdays in December
   
 Background: Testing
@@ -13,6 +14,8 @@ Background: Testing
     Then customers should expect an error message to be displayed
   
   @coffee 
+  @regression
+  @rererererererer
   Scenario Outline:Login with multiple users
     When user enters username "<username>"
     And user enters password "<password>"
