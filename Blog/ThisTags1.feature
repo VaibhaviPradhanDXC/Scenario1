@@ -8,3 +8,4 @@ Feature:
   Scenario:
     Given: hwdhweew manhatton
     When: yeowepwewewewe
+    Then: 56wiwe0we
