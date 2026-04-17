@@ -20,7 +20,8 @@ Background: Testing
     Then login result should be "<result>"
     
     @valid
-    
+    @coffee
+    @regression
      Examples: 
       |link                 |
       |go out of coffee shop|
