@@ -20,6 +20,7 @@ Background: Testing
     Then login result should be "<result>"
     
     @valid
+    
      Examples: 
       |link                 |
       |go out of coffee shop|
