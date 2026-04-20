@@ -1,6 +1,6 @@
 Feature:
   Some interesting description here
-  as
+  as Updated
 
   Scenario:
     Some interesting scenario steps here
