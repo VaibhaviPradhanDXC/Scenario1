@@ -5,7 +5,7 @@ Feature: Checkout
     Given a logged-in user with items in cart
     When they pay with a valid card
     Then the order is confirmed
-    
+   @critical 
   Scenario: User completes purchase with invalid card
     Given a logged-in user with items in cart
     When they pay with a invalid card
