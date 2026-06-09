@@ -14,3 +14,5 @@ Feature: Shopping cart management
     @github123 @rain
     Scenario: Test123
       When xyz
+@github123
+Scenario: 122
