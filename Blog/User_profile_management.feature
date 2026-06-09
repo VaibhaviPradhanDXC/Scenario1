@@ -13,3 +13,6 @@ Feature: User profile management
     When I update my display name to "Alice Smith"
     Then my profile should show "Alice Smith"
     And I should see a success message "Profile updated"
+@james @sharing
+Scenario: Testing 
+  When xyz
