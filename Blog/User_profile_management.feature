@@ -1,3 +1,4 @@
+
 Feature: User profile management
   As an authenticated user
   I want to update my profile
@@ -6,7 +7,7 @@ Feature: User profile management
   Background:
     Given I am logged in as "alice@example.com"
     
-  @smoke @positive @githubtag @unittag
+  @smoke @positive @githubtag @unittag @james @sharing
   Scenario: Update display name successfully
     Given my current display name is "Alice"
     When I update my display name to "Alice Smith"
