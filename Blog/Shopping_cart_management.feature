@@ -11,3 +11,6 @@ Feature: Shopping cart management
     Then the cart should contain 1 item
     And the cart total should be "$29.99"
     And the cart icon should show badge count "1"
+    @github123 @rain
+    Scenario: Test123
+      When xyz
