@@ -4,7 +4,7 @@ Feature: User login
   So that I can access my dashboard
   Background:
     Given the login page is open
-  @smoke1 @positive @abc1 @water
+  @smoke1 @positive @abc1 @water @james
   Scenario: Successful login with valid credentials
     Given a user exists with email "alice@example.com" and password "ValidPass123!"
     When the user enters email "alice@example.com"
