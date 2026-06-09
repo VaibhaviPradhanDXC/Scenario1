@@ -10,5 +10,9 @@ Feature: Checkout
     Given a logged-in user with items in cart
     When they pay with a invalid card
     Then the order is not confirmed
-    
+    @githubtag
+    Scenario: User never paid
+      Given User completes
+      When not user given
+      Then everything bla bla
     
