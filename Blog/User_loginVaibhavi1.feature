@@ -5,7 +5,7 @@ Feature: User login
   So that I can access my dashboard
   Background:
     Given the login page is open
-  @smoke @positive
+  @smoke @positive @vaibhavi1
   Scenario: Successful login with valid credentials
     Given a user exists with email "alice@example.com" and password "ValidPass123!"
     When the user enters email "alice@example.com"
@@ -21,7 +21,7 @@ Feature: User login
     And the user clicks "Sign in"
     Then an error message should display "Invalid email or password"
     And the user should remain on the login page
-  @negative @validation
+  @negative @validation @testingneeded
   Scenario Outline: Login fails with invalid email format
     When the user enters email "<email>"
     And the user enters password "ValidPass123!"
