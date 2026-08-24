@@ -7,6 +7,6 @@ Feature:
     @amazon @rainforest
   Scenario:
     Some interesting scenario steps here
-    @coffee @test
+    @coffeeq @testq
       Scenario:
     Some interesting scenario steps here
