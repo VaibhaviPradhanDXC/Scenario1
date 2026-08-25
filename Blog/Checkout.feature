@@ -20,5 +20,10 @@ Feature: Checkout
       Given User completes
       When not user given
       Then everything bla bla
+       @githubtag @useriissh @irishj
+    Scenario: User never paid
+      Given User completes
+      When not user given
+      Then everything bla bla
     
     
