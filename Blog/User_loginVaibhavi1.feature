@@ -27,3 +27,10 @@ Feature: User login
     And the user enters password "ValidPass123!"
     And the user clicks "Sign in"
     Then an error message should display "<error>"
+    @negative @negative1 @validation @testingneeded
+  Scenario Outline: Login fails with invalid email format
+    When the user enters email "<email>"
+    And the user enters password "ValidPass123!"
+    And the user clicks "Sign in"
+    Then an error message should display "<error>" Multune dujsd
+
